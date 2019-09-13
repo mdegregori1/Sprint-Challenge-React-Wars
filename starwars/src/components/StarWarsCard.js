@@ -19,7 +19,7 @@ export default StarWarsCard;
 const Main = styled.div`
     border: 2px solid black;
     font-size: 20px;
-    margin: 2% 30% 2% 30%;
+    margin: 2% 40% 2% 40%;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #fff;
