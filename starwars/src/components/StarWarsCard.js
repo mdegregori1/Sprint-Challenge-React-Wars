@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 const StarWarsCard = (props) =>{
     return (
+       
         <Main>
             <Name>{props.characterName}</Name>
             <Height>Height: {props.characterHeight}</Height>
@@ -14,11 +15,15 @@ const StarWarsCard = (props) =>{
 
 export default StarWarsCard;
 
+// styling 
 const Main = styled.div`
-    border: 1px dotted black;
+    border: 2px solid black;
     font-size: 20px;
-    display: flex;
-    flex-direction: column;
+    margin: 5% 15% 5% 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+
     
 
 
