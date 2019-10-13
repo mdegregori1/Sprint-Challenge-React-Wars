@@ -3,12 +3,12 @@
 }
 .Header {
   color: #443e3e;
-  text-shadow: none;
+  text-shadow: 1px 1px 5px #fff;
 }
-
-#root {
-  height: 100vh;
-  margin:0;
-
-}
+ body {
+  background-attachment: fixed; 
+  color: #fff;
+  text-shadow: 1px 1px 5px black;
+ }
 /* write your parent styles in here for your App.js */
+
